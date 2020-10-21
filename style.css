@@ -40,20 +40,7 @@ color: black;
 
 }
 
-@media(max-width: 760px) {
 
-	.container{
-		width: 600px;
-
-    }
-}
-
-@media(max-width: 500px) {
-
-	.container{
-		width: 400px;
-     }	
-}
 .card-white{
 	background-color: white;
 	padding: 40px;
@@ -99,4 +86,20 @@ color: black;
 /* Design adjustements using id (1% design remaining) */
 #introduction p {
 margin-bottom: 40px;
+}
+
+
+@media(max-width: 760px) {
+
+	.container{
+		width: 600px;
+
+    }
+}
+
+@media(max-width: 500px) {
+
+	.container{
+		width: 400px;
+     }	
 }
